@@ -36,5 +36,6 @@ public class InvoiceGeneratorTest {
         InvoiceSummary invoiceSummary = generator.calculateFare(rides);
         InvoiceSummary expectedInvoiceSummary = new InvoiceSummary(2, 120);
         Assert.assertEquals(expectedInvoiceSummary, invoiceSummary);
+
     }
 }
