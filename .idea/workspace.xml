@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7fe6b26-38ae-4259-bfa3-1c3a44ad2282" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Ride.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/InvoiceSummary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/InvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/InvoiceGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/InvoiceGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/InvoiceGeneratorTest.java" afterDir="false" />
@@ -25,11 +25,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="Rerun Failed Tests" />
-    </enabled-run-configurations>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,7 +41,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.InvoiceGeneratorTest">
+  <component name="RunManager" selected="JUnit.InvoiceGeneratorTest (1)">
     <configuration name="CabInvoiceGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.CabInvoiceGenerator" />
       <module name="car-invoice-generator" />
@@ -56,6 +51,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvoiceGeneratorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cab-invoice-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.InvoiceGeneratorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InvoiceGeneratorTest (1)" />
         <item itemvalue="JUnit.InvoiceGeneratorTest" />
         <item itemvalue="JUnit.InvoiceGeneratorTest.givenDistanceAndTime_ShouldReturnTotalFare" />
         <item itemvalue="JUnit.InvoiceGeneratorTest.givenMultipleRides_ShouldReturnTotalFare" />
